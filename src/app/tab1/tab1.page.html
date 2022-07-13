@@ -1,0 +1,15 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="center-header">
+      <img class="align-header" width="30%" src="assets/images/title.png" alt="title"/>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list class="alchemy-list">
+    <ion-item *ngFor="let drug of listDrugs">
+      <ion-label>{{drug}}</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

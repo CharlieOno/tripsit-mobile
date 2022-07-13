@@ -1,0 +1,8 @@
+{
+  "name": "Tripsit",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "b5abf796"
+}
